@@ -27,6 +27,8 @@ interface FinchStatic {
         handler?: Function;
     }):void;
     bind(element:any, template:any):void;
+    binders: {[key: string]: (el, value) => any};
+    formatters: {[key: string]: (el, value) => any};
 }
 
 declare var Rivets: FinchStatic;
