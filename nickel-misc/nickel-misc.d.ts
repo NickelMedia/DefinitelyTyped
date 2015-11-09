@@ -11,7 +11,7 @@ declare module "google-maps" {
     var SENSOR:boolean;
     var LIBRARIES:string[];
     var LANGUAGE:string;
-    function load():void;
-    function release():void;
-    function onLoad():void;
+    function load(callback:any):void;
+    function release(callback:any):void;
+    function onLoad(callback:any):void;
 }
