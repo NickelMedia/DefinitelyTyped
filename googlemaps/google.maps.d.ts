@@ -58,7 +58,7 @@ declare module google.maps {
 
     export interface MapOptions {
         backgroundColor?: string;
-        center?: LatLng;
+        center?: LatLngLiteral;
         disableDefaultUI?: boolean;
         disableDoubleClickZoom?: boolean;
         draggable?: boolean;
