@@ -418,7 +418,7 @@ declare module google.maps {
         /**
          * Marker position. Required.
          */
-        position: LatLng;
+        position: LatLngLiteral;
         /** Image map region definition used for drag/click. */
         shape?: MarkerShape;
         /** Rollover text. */
