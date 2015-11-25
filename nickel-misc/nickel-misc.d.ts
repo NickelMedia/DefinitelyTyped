@@ -15,3 +15,4 @@ declare module "google-maps" {
     function release(callback:any):void;
     function onLoad(callback:any):void;
 }
+declare module "bind-polyfill" {}
